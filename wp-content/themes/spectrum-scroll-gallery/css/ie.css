@@ -1,0 +1,24 @@
+#slideshow {
+	z-index: 1;
+}
+
+#mainNav {
+	z-index: 50;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#mainNav li:after {
+	content: '';
+}
+
+#mainNav li li a {
+	font-weight:normal;
+	letter-spacing:1px;
+}
+
+#mainNav li li:after, #menu-main li:last-child:after {
+	content: '';
+}
